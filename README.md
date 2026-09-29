@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Mayssa Jrah
 
-## Getting Started
+Ce portfolio est une application Next.js ultra-moderne, responsive et animée, conçue spécifiquement pour le profil SEO & Marketing Digital de Mayssa Jrah.
 
-First, run the development server:
+## 🚀 Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js 15 (App Router)**
+- **TypeScript**
+- **Tailwind CSS v4**
+- **Framer Motion** (Animations et micro-interactions)
+- **Lucide React** (Icônes)
+- **Next Themes** (Support Dark/Light mode)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Installation et Lancement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Cloner ou télécharger** ce repository.
+2. **Installer les dépendances** :
+   ```bash
+   npm install
+   ```
+3. **Lancer le serveur de développement** :
+   ```bash
+   npm run dev
+   ```
+4. Ouvrir [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✏️ Personnalisation du Contenu
 
-## Learn More
+Toutes les données du portfolio sont centralisées dans un seul fichier pour faciliter les mises à jour :
+👉 **`src/data/content.ts`**
 
-To learn more about Next.js, take a look at the following resources:
+Vous pouvez y modifier :
+- Le texte d'introduction et le poste.
+- Les étapes de la méthodologie SEO.
+- Les expériences, projets, et formations.
+- Les compétences et les langues.
+- Les liens de contact et les réseaux sociaux.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Ajout des Médias (Placeholders)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pour que les images s'affichent correctement, ajoutez vos propres fichiers dans le dossier `/public/assets/` en respectant les noms suivants :
 
-## Deploy on Vercel
+- `public/assets/mayssa.jpg` (Votre photo de profil)
+- `public/assets/cv-mayssa-jrah.pdf` (Votre CV téléchargeable)
+- `public/assets/certifs/semrush.jpg` (Certificat Semrush)
+- `public/assets/certifs/google-ads-video.jpg` (Certificat Google Ads)
+- `public/assets/certifs/hubspot.jpg` (Certificat HubSpot)
+- `public/assets/certifs/start-apii.jpg` (Certificat START'APII)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Déploiement sur Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Créez un compte sur [Vercel](https://vercel.com/).
+2. Installez le Vercel CLI (optionnel) ou reliez votre dépôt GitHub.
+3. Déployez en un clic :
+   - Via l'interface web : "Add New Project" -> Importez le dépôt.
+   - Les paramètres de build (`npm run build`) seront détectés automatiquement.
+
+Le site sera accessible via une URL sécurisée (HTTPS) en quelques secondes, avec d'excellentes performances SEO.
