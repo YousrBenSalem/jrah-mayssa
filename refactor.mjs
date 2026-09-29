@@ -67,6 +67,19 @@ export const portfolioDataFR = {
     }
   ],
   projects: [
+     {
+      title: "Clim Expert (SEO)",
+      date: "2026",
+      location: "France / IDF",
+      description: "Optimisation SEO multi-sites pour un réseau d'installateurs de climatisation. Amélioration du positionnement local et technique.",
+      links: [
+        "https://clim-expert-78.com/",
+        "https://clim-expert-77.com/",
+        "https://clim-expert-91.com/",
+        "https://clim-expert-92.com/",
+        "https://airlys.fr/"
+      ]
+    }
     {
       title: "Dolce Misou",
       date: "11/2025 – en cours",
@@ -79,19 +92,7 @@ export const portfolioDataFR = {
       location: "Mahdia",
       description: "Projet innovant de mise en relation dans l'éco-construction."
     },
-    {
-      title: "Clim Expert (SEO)",
-      date: "2023 - 2024",
-      location: "France / IDF",
-      description: "Optimisation SEO multi-sites pour un réseau d'installateurs de climatisation. Amélioration du positionnement local et technique.",
-      links: [
-        "https://clim-expert-78.com/",
-        "https://clim-expert-77.com/",
-        "https://clim-expert-91.com/",
-        "https://clim-expert-92.com/",
-        "https://airlys.fr/"
-      ]
-    }
+ 
   ],
   education: [
     {
@@ -219,6 +220,18 @@ export const portfolioDataEN = {
     }
   ],
   projects: [
+        title: "Clim Expert (SEO)",
+      date: "2026",
+      location: "France / IDF",
+      description: "Multi-site SEO optimization for an air conditioning installation network. Improvement of local and technical positioning.",
+      links: [
+        "https://clim-expert-78.com/",
+        "https://clim-expert-77.com/",
+        "https://clim-expert-91.com/",
+        "https://clim-expert-92.com/",
+        "https://airlys.fr/"
+      ]
+    }
     {
       title: "Dolce Misou",
       date: "11/2025 – present",
@@ -232,18 +245,7 @@ export const portfolioDataEN = {
       description: "Innovative project for connecting professionals in the eco-construction sector."
     },
     {
-      title: "Clim Expert (SEO)",
-      date: "2023 - 2024",
-      location: "France / IDF",
-      description: "Multi-site SEO optimization for an air conditioning installation network. Improvement of local and technical positioning.",
-      links: [
-        "https://clim-expert-78.com/",
-        "https://clim-expert-77.com/",
-        "https://clim-expert-91.com/",
-        "https://clim-expert-92.com/",
-        "https://airlys.fr/"
-      ]
-    }
+
   ],
   education: [
     {
